@@ -19,3 +19,10 @@ pip3 install -r requirements.txt
 Specify the parameters thrown at `python3 moodle_multi_message.py -h`.
 
 Group ID and Course ID (or subject ID) are numeric and these could be grabbed from your platform grading table.
+
+## Example
+
+```bash
+python3 moodle_multi_message.py -u my.login.user -p allyourbasearebelongtous -l https://mymoodle.site/ -c 49 -g 2016 -m 'Hello everyone, a new video is ready for you to watch at https://youtube.com/'
+```
+
